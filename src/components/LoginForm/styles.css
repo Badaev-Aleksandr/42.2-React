@@ -7,7 +7,7 @@
     border: 1px solid #000000;
     border-radius: 4px;
     background: #FFFFFF;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
 }
 
 h3 {
@@ -15,6 +15,7 @@ h3 {
     font-weight: 400;
     font-size: 24px;
     color: #000000;
+    font-family: 'Lato', sans-serif;
 }
 
 .input-container {
