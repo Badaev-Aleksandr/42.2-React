@@ -1,9 +1,16 @@
-.main-button{
-    width: 300px;
-    padding: 20px 30px;
-    background-color: rgb(35, 35, 120);
-    font-size: 28px;
-    color: aliceblue;
-    border: none;
+.main-button {
+    width: 470px;
+    padding: 20px 54px;
     border-radius: 4px;
+    border: none;
+    outline: none;
+    gap: 10px;
+    background-color: #1F27F5;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    align-items: center;
+    color: #FFFFFF;
+    line-height: 30px;
+    cursor: pointer;
 }
