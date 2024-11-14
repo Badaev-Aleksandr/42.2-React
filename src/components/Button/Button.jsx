@@ -1,11 +1,11 @@
 import "./styles.css";
 
-function Button({buttonName, type}) {
-/*  console.log(props.buttonName); */
+function Button({ buttonName, type }) {
  
-
   return (
-    <button className="main-button" type={type}>{buttonName}</button>
+    <button className="main-button" type={type}>
+      {buttonName}
+    </button>
   );
 }
 
