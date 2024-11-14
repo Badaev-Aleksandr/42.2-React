@@ -1,13 +1,13 @@
 import "./styles.css";
 
-function Input({ name, type, placeholder, label, labelName }) {
+function Input({ name, type, placeholder, id, labelName }) {
   return (
     <div className="input-label-wrapper">
-      <label for={label}>{labelName}</label>
+      <label for={id}>{labelName}</label>
       <input
         name={name}
         type={type}
-        id={label}
+        id={id}
         placeholder={placeholder}
         required
       />
