@@ -1,0 +1,10 @@
+.input-label-wrapper{
+display: flex;
+flex-direction: column;
+
+}
+
+input{
+    width: 468px;
+
+}
