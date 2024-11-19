@@ -3,9 +3,8 @@ import "./styles.css";
 import { useState } from "react";
 
 function Feedback() {
-  const resetedCounter = 0;
-  const [countLike, setCountLike] = useState(resetedCounter);
-  const [countDislike, setCountDislike] = useState(resetedCounter);
+  const [countLike, setCountLike] = useState(0);
+  const [countDislike, setCountDislike] = useState(0);
 
   const onPlusLike = () => {
     setCountLike((prevValue) => prevValue + 1);
@@ -16,8 +15,8 @@ function Feedback() {
   };
 
   const resetResult = () => {
-    setCountLike(resetedCounter);
-    setCountDislike(resetedCounter);
+    setCountLike(0);
+    setCountDislike(0);
   };
 
   return (
